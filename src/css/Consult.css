@@ -1,0 +1,115 @@
+#ConsultWrite{margin:auto;max-width:1200px}
+#ConsultWrite h1{margin-bottom:30px;font-size:26px;text-align:center}
+#ConsultWrite form{border-top:1px solid #111}
+#ConsultWrite form .item{display:flex;border-bottom:1px solid #e1e1e1}
+#ConsultWrite form label{display:flex;justify-content:center;align-items:center;padding:20px 0;min-width:170px;text-align:center;font-size:15px;font-weight:500;background-color:#f5f5f5}
+#ConsultWrite form .input{padding:0 20px 0 12px;margin:10px;height:40px;border:1px solid #e1e1e1;border-radius:2px;font-size:15px;color:#777;font-family:'notokr-regular'}
+#ConsultWrite form .input.full{padding:12px;width:calc(100% - 170px);height:300px}
+#ConsultWrite form .btn-wrap{display:flex;justify-content:center;align-items:center;gap:10px}
+#ConsultWrite form .submit-btn, #ConsultWrite form a{display:flex;justify-content:center;align-items:center;margin:30px auto 50px;width:185px;height:60px;border:none;font-size:15px;color:#fff;background-color:#0054a6}
+#ConsultWrite form a{width:90px;background-color:#a2a2a2}
+
+.board-list{margin:50px auto 80px !important;max-width:1600px;margin:0 auto;overflow-x:auto}
+.board-list h1{margin-bottom:50px;font-size:26px;text-align:center}
+.board-list .search{display:flex;align-items:center;gap:8px;margin:0 0 30px auto;width:max-content}
+.board-list .search-wrap{position:relative}
+.board-list .search-wrap input{padding:12px;width:270px;height:45px;border:1px solid #e1e1e1;font-size:15px}
+.board-list .search-wrap button{position:absolute;top:50%;right:10px;transform:translateY(-50%);border:none;background-color:transparent}
+.board-list .refresh-btn{display:flex;justify-content:center;align-items:center;width:45px;height:45px;border:1px solid #e1e1e1;background-color:transparent}
+
+.board-list table{width:1600px;border-collapse:collapse;border-top:1px solid #111}
+.board-list table > thead th{height:60px;font-size:15px}
+.board-list table > thead th.number{width:100px}
+.board-list table > thead th.name{width:200px}
+.board-list table > tbody{border-top:1px solid #e1e1e1}
+.board-list table > tbody > tr{border-top:1px solid #e1e1e1}
+.board-list table > tbody > tr > td{padding:30px 0}
+.board-list table > tbody > tr > .link-td{font-weight:600;cursor:pointer}
+.board-list table > tbody td{padding:10px 0;text-align:center;font-size:14px}
+.board-list .pagination{display:flex;justify-content:center;gap:8px;margin:30px 0}
+.board-list .pagination button{width:28px;height:28px;border:1px solid #e1e1e1;border-radius:3px;background-color:#f5f5f5}
+.board-list .pagination button.active {font-weight:bold;background:#000;color:#fff}
+.board-list .write-btn{display:flex;justify-content:center;align-items:center;margin-top:50px;width:160px;height:55px;font-size:15px;color:#fff;background-color:#0054a6}
+
+#ConsultVerify{z-index:1;position:fixed;top:0px;right:0px;width:100%;height:100%;background-color:rgb(0, 0, 0, 0.5)}
+#ConsultVerify > div{display:flex;flex-direction:column;align-items:center;position:absolute;top:50%;left:50%;transform:translate(-50% ,-50%);padding:80px 30px 60px;width:400px;border-radius:10px;background-color:#fff}
+#ConsultVerify > div h2{font-size:18px}
+#ConsultVerify > div .close-btn{position:absolute;top:15px;right:15px;border:none;background-color:transparent}
+#ConsultVerify > div .input-wrap{display:flex;flex-direction:column;gap:10px;margin-top:30px;width:100%}
+#ConsultVerify > div .input-wrap input{padding:12px;width:100%;height:48px;border:1px solid #e1e1e1;border-radius:3px}
+#ConsultVerify > div .confirm-btn{margin-top:30px;width:180px;height:50px;border:none;color:#fff;background-color:#0054a6}
+
+.board-view{margin:50px auto 80px;max-width:1300px}
+.board-view .title{padding:15px 20px;border-top:1px solid #111;border-bottom:1px solid #e1e1e1;font-size:18px;font-weight:600;background-color:#f5f5f5}
+.board-view .user{display:flex;justify-content:space-between;padding:15px 20px;border-bottom:1px solid #e1e1e1;font-size:14px;color:#777}
+.board-view .user span{padding-right:10px;margin-right:10px;border-right:1px solid #e1e1e1}
+.board-view .info{padding:15px 20px;border-bottom:1px solid #e1e1e1;font-size:15px}
+.board-view .info > li{display:flex;align-items:center;gap:10px}
+.board-view .info > li + li{margin-top:10px}
+.board-view .info > li > span{min-width:80px;height:30px;line-height:30px;text-align:center;font-size:14px;border:1px solid #e1e1e1;border-radius:20px;background-color:#f5f5f5}
+.board-view .content{padding:15px 20px;font-size:15px}
+.board-view .btn{display:flex;align-items:center;gap:10px;margin-top:30px}
+.board-view .btn a, .board-view .btn button{width:90px;height:40px;line-height:40px;text-align:center;font-size:14px;border:none;border-radius:4px;color:#fff;background-color:var(--primary);cursor:pointer}
+.board-view .btn .edit-btn{color:#fff;background-color:#0054a6}
+.board-view .btn .delete-btn{color:#ff567f;background-color:#ffd1dc}
+
+/* 반응형 [s] */
+@media (max-width:1600px){
+.board-list{width:95%}
+.board-list table{width:100%}
+}
+@media (max-width:1024px){
+#ConsultWrite, .board-view{width:95%}
+#ConsultWrite h1{margin:60px 0 30px}
+#ConsultWrite form label{min-width:140px;font-size:14px}
+#ConsultWrite form .input.full{width:calc(100% - 140px)}
+.board-list h1{font-size:24px}
+.board-list .search-wrap input{width:220px;font-size:14px}
+.board-list table > thead th{font-size:14px}
+.board-list table > tbody td{font-size:13px}
+}
+@media (max-width:768px){
+#ConsultWrite h1{font-size:24px}
+#ConsultWrite form label{min-width:120px;font-size:13px}
+#ConsultWrite form .input.full{width:calc(100% - 120px)}
+#ConsultWrite form .input{font-size:14px}
+#ConsultWrite form .submit-btn, #ConsultWrite form a{width:165px;height:55px;font-size:14px}
+#ConsultWrite form a{width:80px}
+.board-list .search-wrap input{width:200px;height:40px;font-size:13px}
+.board-list .search-wrap button svg{width:16px}
+.board-list .refresh-btn{width:40px;height:40px}
+.board-list .refresh-btn svg{width:16px}
+.board-list table > thead th{height:55px;font-size:13px}
+.board-list table > tbody td{font-size:12px}
+.board-list table > thead th.number{width:70px}
+.board-list table > thead th.name{width:100px}
+.board-list table > tbody > tr > td{padding:25px 0}
+.board-view .title{font-size:16px}
+.board-view .user{font-size:13px}
+.board-view .info{padding:15px}
+.board-view .info > li{font-size:14px}
+.board-view .info > li > span{min-width:70px;font-size:12px}
+.board-view .content{font-size:14px}
+.board-view .btn a, .board-view .btn button{width:80px;height:38px;line-height:38px;font-size:13px}
+}
+@media (max-width:480px){
+#ConsultWrite h1{font-size:22px}
+#ConsultWrite form label{min-width:100px}
+#ConsultWrite form .input.full{width:calc(100% - 100px)}
+#ConsultWrite form .input{font-size:13px}
+#ConsultWrite form .submit-btn, #ConsultWrite form a{width:150px;height:52px;font-size:13px}
+#ConsultWrite form a{width:70px}
+.board-list h1{margin-bottom:40px;font-size:20px}
+.board-list .write-btn{width:150px;height:50px;font-size:14px}
+.board-view .title{font-size:15px}
+.board-view .user{font-size:12px}
+.board-view .info{padding:12px}
+.board-view .info > li{font-size:13px}
+.board-view .info > li > span{min-width:65px}
+.board-view .content{font-size:13px}
+.board-view .btn a, .board-view .btn button{width:75px;height:35px;line-height:35px;font-size:12px}
+#ConsultVerify > div{padding:60px 2.5% 30px;width:350px}
+#ConsultVerify > div h2{font-size:16px}
+#ConsultVerify > div .input-wrap input{margin:auto;width:90%}
+}
+/* 반응형 [e] */

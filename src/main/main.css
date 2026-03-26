@@ -1,0 +1,166 @@
+#Mainbanner{position:relative;margin:0 auto 100px;max-width:1600px;height:700px}
+#Mainbanner .bg{overflow:hidden;height:100%;border-radius:10px}
+#Mainbanner .bg img{width:100%;height:100%;object-fit:cover}
+#Mainbanner .banner-wrap{display:flex;flex-direction:column;justify-content:center;align-items:center;position:absolute;top:50%;left:20px;padding:40px;transform:translateY(-50%);text-align:center;border-radius:8px;background-color:#fff}
+#Mainbanner .banner-wrap p{font-size:17px;font-weight:700;color:var(--primary)}
+#Mainbanner .banner-wrap h1{margin-top:20px;font-size:36px}
+#Mainbanner .banner-wrap ul{display:flex;gap:20px;margin-top:30px}
+#Mainbanner .banner-wrap ul li{position:relative;padding:30px;width:230px;height:230px;border-radius:5px;text-align:left;color:#fff;background-color:var(--primary)}
+#Mainbanner .banner-wrap ul li a{display:block;width:100%;height:100%}
+#Mainbanner .banner-wrap ul li p{opacity:0.8;font-size:13px;color:#fff}
+#Mainbanner .banner-wrap ul li h3{margin-top:10px;font-size:20px;color:#fff}
+#Mainbanner .banner-wrap ul li img{position:absolute;bottom:0px;right:20px}
+
+#Section01{padding:80px 0;background:url('/img/section01_bg.png') no-repeat center;background-size:cover}
+#Section01 .wrap{display:flex;align-items:center;gap:100px;margin:0 auto;max-width:1300px}
+#Section01 .right h2{font-size:36px;line-height:1.3}
+#Section01 .right h2 span{font-weight:400}
+#Section01 .search-land{position:relative;margin-top:60px;width:650px;height:70px}
+#Section01 .search-land input{padding:12px 30px;width:100%;height:100%;border:1px solid #e1e1e1;border-radius:35px;font-size:15px}
+#Section01 .search-land button{display:flex;align-items:center;gap:10px;position:absolute;top:50%;right:10px;transform:translateY(-50%);padding:0 30px;height:50px;border:none;border-radius:25px;font-size:16px;color:#fff;background-color:var(--primary)}
+#Section01 .left{width:100%}
+#Section01 .left ul{display:grid;grid-template-columns:repeat(2, 1fr);gap:25px}
+#Section01 .left ul li{width:100%;height:220px;border:3px solid #fff;border-radius:20px;font-size:18px;font-weight:700;text-align:center;transition:all .5s;background-color:#fff;box-shadow:0 0 20px rgb(0 0 0 / 20%)}
+#Section01 .left ul li:hover{border:3px solid var(--primary)}
+#Section01 .left ul li:nth-child(odd){margin-top:-50px}
+#Section01 .left ul li a{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:20px;width:100%;height:100%}
+#Section01 .left ul li:nth-child(odd) img{margin-left:40px}
+#Section01 .left ul li:nth-child(even) img{margin-left:10px}
+
+#Section02{position:relative}
+#Section02 .wrap{display:flex;align-items:center;padding:100px 0;margin:0 auto;max-width:1400px}
+#Section02 .wrap .right, #Section02 .wrap .left{width:50%}
+#Section02 .wrap .right{padding-right:120px}
+#Section02 .wrap .right h2{font-size:36px;line-height:1.3}
+#Section02 .wrap .right h2 span{font-weight:400}
+#Section02 .wrap .right .swiper{margin-top:50px;height:270px}
+#Section02 .wrap .right .swiper-slide{display:flex;align-items:center;gap:20px;padding:12px 20px;border:1px solid #e1e1e1;border-radius:8px;font-size:14px;color:#777}
+#Section02 .wrap .right .swiper-slide span:first-child{display:block;line-height:35px;width:80px;height:35px;text-align:center;border-radius:25px;color:#fff;background-color:#01b881}
+#Section02 .wrap .right .swiper-slide span:last-child{margin-left:auto}
+#Section02 .wrap .left{padding:60px}
+#Section02 .wrap .left:after{z-index:-1;content:'';position:absolute;top:0px;right:0px;width:50%;height:100%;background-color:#f5f5f5}
+#Section02 .wrap .left .tit{display:flex;align-items:end;gap:15px}
+#Section02 .wrap .left .tit h2{font-size:36px}
+#Section02 .wrap .left .tit p{padding-bottom:5px;font-size:16px;color:#a2a2a2}
+#Section02 .wrap .left form{margin-top:40px}
+#Section02 .wrap .left form .input-wrap{display:flex;gap:15px}
+#Section02 .wrap .left form .input-wrap input{padding:12px;width:50%;height:50px;border:1px solid #e1e1e1;border-radius:3px;font-size:14px}
+#Section02 .wrap .left form textarea{margin-top:15px;padding:20px 12px;width:100%;height:130px;border:1px solid #e1e1e1;border-radius:3px;font-size:14px}
+#Section02 .wrap .left form .agree-wrap{display:flex;justify-content:end;align-items:center;gap:5px;margin:10px 0 30px;font-size:14px;color:#a2a2a2}
+#Section02 .wrap .left form button{width:100%;height:70px;border:none;border-radius:35px;font-size:18px;color:#fff;background-color:var(--primary)}
+
+#Section03{position:relative;margin:90px auto;max-width:1300px}
+#Section03:after{content:url('/img/section03_img02.png');position:absolute;top:20px;left:-22px}
+#Section03 .wrap{overflow:hidden;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:60px 0;width:100%;border-radius:20px;background-color:var(--primary)}
+#Section03 .wrap:after{content:url('/img/section03_img01.png');position:absolute;bottom:-7px;left:-1px}
+#Section03 .wrap:before{content:url('/img/section03_img03.png');position:absolute;bottom:-7px;right:-1px}
+#Section03 .wrap h2{font-size:36px;color:#fff}
+#Section03 .wrap h2 span{font-weight:400}
+#Section03 .wrap a{display:flex;justify-content:center;align-items:center;gap:20px;margin-top:40px;width:270px;height:70px;border-radius:35px;font-size:16px;font-weight:600;background-color:#fff}
+
+
+/* 반응형 [s] */
+@media (max-width:1600px){
+#Mainbanner ,#Section01 .wrap, #Section02 .wrap, #Section03{width:95%}
+#Section01 .right, #Section01 .left{width:50%}
+#Section01 .wrap{gap:50px}
+#Section01 .search-land{width:100%}
+#Section02 .wrap .left{padding:40px}
+#Section02 .wrap .right{padding-right:100px}
+#Section02 .wrap .right h2, #Section02 .wrap .left .tit h2{font-size:32px}
+#Section02 .wrap .left .tit p{font-size:15px}
+}
+@media (max-width:1024px){
+#Mainbanner{margin-bottom:70px;height:550px}
+#Mainbanner .banner-wrap{padding:30px;left:50%;transform:translate(-50%, -50%)}
+#Mainbanner .banner-wrap p{font-size:15px}
+#Mainbanner .banner-wrap h1{margin-top:15px;font-size:30px}
+#Mainbanner .banner-wrap ul li h3{font-size:18px}
+#Mainbanner .banner-wrap ul li img{width:60px}
+#Section01 .wrap{flex-direction:column}
+#Section01 .right, #Section01 .left{width:100%}
+#Section01 .right h2{font-size:30px;text-align:center}
+#Section01 .search-land{margin-top:30px}
+#Section01 .left{margin-top:60px}
+#Section02 .wrap{flex-direction:column;padding:80px 0}
+#Section02 .wrap .right, #Section02 .wrap .left{width:100%}
+#Section02 .wrap .right{padding-right:0px}
+#Section02 .wrap .right h2, #Section02 .wrap .left .tit h2{font-size:28px;text-align:center}
+#Section02 .wrap .left{margin-top:60px;padding:60px 20px;border-radius:5px;background-color:#f5f5f5}
+#Section02 .wrap .left .tit{flex-direction:column;justify-content:center;align-items:center}
+#Section02 .wrap .left:after{display:none}
+#Section02 .wrap .left form button{font-size:16px}
+#Section03{margin:0px auto 80px}
+#Section03 .wrap h2{font-size:30px}
+#Section03 .wrap a{margin-top:30px;width:240px;height:60px;font-size:15px}
+#Section03:after{top:55px;transform:scale(0.7)}
+#Section03 .wrap:after{bottom:-46px;left:-25px;transform:scale(0.7)}
+#Section03 .wrap:before{bottom:-50px;right:-46px;transform:scale(0.7)}
+}
+@media (max-width:768px){
+#Mainbanner{margin-bottom:60px;height:450px}
+#Mainbanner .banner-wrap{padding:25px}
+#Mainbanner .banner-wrap p{font-size:14px}
+#Mainbanner .banner-wrap h1{margin-top:12px;font-size:26px}
+#Mainbanner .banner-wrap ul li{width:185px;height:200px}
+#Mainbanner .banner-wrap ul li h3{font-size:17px}
+#Mainbanner .banner-wrap ul li img{width:50px}
+#Section01{padding:70px 0}
+#Section01 .right h2{font-size:26px}
+#Section01 .search-land{height:60px}
+#Section01 .search-land button{padding:0 25px;height:42px;font-size:15px}
+#Section01 .search-land button svg{width:18px}
+#Section01 .wrap{gap:40px}
+#Section01 .left ul{gap:20px}
+#Section01 .left ul li{height:190px;font-size:16px}
+#Section01 .left ul li img{width:80px}
+#Section02 .wrap{padding:70px 0}
+#Section02 .wrap .right h2, #Section02 .wrap .left .tit h2{font-size:26px}
+#Section02 .wrap .left{margin-top:50px}
+#Section02 .wrap .left form button{height:65px}
+#Section03 .wrap h2{font-size:26px}
+#Section03 .wrap a{gap:15px;margin-top:25px;width:220px;height:58px;font-size:14px}
+#Section03:after{top:90px;transform:scale(0.50)}
+#Section03 .wrap:after{bottom:-73px;left:-39px;transform:scale(0.50)}
+#Section03 .wrap:before{bottom:-79px;right:-82px;transform:scale(0.50)}
+}
+@media (max-width:480px){
+#Mainbanner{margin:30px auto;height:auto}
+#Mainbanner .bg{display:none}
+#Mainbanner .banner-wrap{position:static;transform:none;flex-direction:column;padding:40px 2.5%;box-shadow:0 0 20px rgb(0 0 0 / 20%)}
+#Mainbanner .banner-wrap ul{width:100%;gap:12px}
+#Mainbanner .banner-wrap ul li{padding:30px 2.5%;width:50%;height:180px}
+#Mainbanner .banner-wrap ul li a{text-align:center}
+#Mainbanner .banner-wrap ul li img{right:46%;transform:translateX(50%)}
+#Mainbanner .banner-wrap ul li p{font-size:12px}
+#Mainbanner .banner-wrap ul li h3{font-size:16px}
+#Mainbanner .banner-wrap ul li img{width:45px}
+#Section01{padding:70px 0 60px}
+#Section01 .right h2{font-size:22px}
+#Section01 .search-land{height:55px}
+#Section01 .search-land button{padding:0 20px;gap:8px;height:38px;font-size:14px}
+#Section01 .search-land button svg{width:16px}
+#Section01 .search-land input{padding:12px 22px;font-size:14px}
+#Section01 .wrap{gap:30px}
+#Section01 .left ul{gap:15px}
+#Section01 .left ul li{height:165px;font-size:15px}
+#Section01 .left ul li img{width:65px}
+#Section02 .wrap .right h2, #Section02 .wrap .left .tit h2{font-size:22px}
+#Section02 .wrap .right .swiper{margin-top:40px}
+#Section02 .wrap .right .swiper-slide{padding:12px;gap:12px;font-size:13px}
+#Section02 .wrap .right .swiper-slide span:first-child{width:70px;height:30px;line-height:30px;font-size:13px}
+#Section02 .wrap .left{margin-top:40px;padding:50px 2.5%}
+#Section02 .wrap .left .tit p{font-size:14px}
+#Section02 .wrap .left form .input-wrap{gap:12px}
+#Section02 .wrap .left form .input-wrap input{font-size:14px}
+#Section02 .wrap .left form textarea{margin-top:12px}
+#Section02 .wrap .left form .agree-wrap{font-size:13px}
+#Section02 .wrap .left form button{height:58px;font-size:15px}
+#Section03{margin-bottom:70px}
+#Section03 .wrap h2{font-size:22px}
+#Section03 .wrap a{gap:12px;margin-top:20px;width:220px;width:195px;height:55px;font-size:13px}
+#Section03:after{top:100px;transform:scale(0.4)}
+#Section03 .wrap:after{bottom:-86px;left:-48px;transform:scale(0.4)}
+#Section03 .wrap:before{bottom:-102px;right:-102px;transform:scale(0.35)}
+}
+/* 반응형 [e] */

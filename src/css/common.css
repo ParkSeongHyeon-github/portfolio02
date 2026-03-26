@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face{font-family:'SBAggroB';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');font-weight:normal;font-style:normal}
+@font-face{font-family:'SBAggroM';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');font-weight:normal;font-style:normal}
+@font-face{font-family:'SBAggroL';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff') format('woff');font-weight:normal;font-style:normal}
+
+/* 기본 설정 */
+:root{--primary:#04865f;--prefont:'SBAggroL';--pop:'Poppins'}
+body{overflow:hidden;background:#fff;font-size:0.81em;font-family:var(--prefont)}
+h1, h2, h3, h4, h5, h6, input, button, textarea, select{font-family:'SBAggroL'}
+a{cursor:pointer}
+.pl{white-space:pre-line;word-break:keep-all}
+
+/* Header [s] */
+#header-wrap{display:flex;justify-content:space-between;align-items:center;gap:60px;margin:auto;max-width:1600px;height:90px}
+#header-wrap .logo{font-size:32px;font-weight:700}
+#header-wrap nav{margin-left:auto}
+#header-wrap ul{display:flex;align-items:center}
+#header-wrap nav ul{gap:30px;font-size:18px;font-weight:500}
+#header-wrap .member{padding:17px 32px;border-radius:30px;font-size:15px;background-color:#f7f7f7}
+#header-wrap .member li:first-child{margin-right:10px;padding-right:10px;border-right:1px solid #e1e1e1}
+#header-wrap .member .logout{margin-right:0px !important;padding-right:0px !important;border:none !important}
+#header-wrap .member .logout button{border:none;background-color:transparent}
+/* Header [e] */
+
+/* Footer [s] */
+footer{padding:80px 0;color:#fff;background-color:#222}
+#footer-wrap{margin:auto;max-width:1600px}
+#footer-wrap .logo{margin-bottom:30px;padding-bottom:30px;border-bottom:1px solid #e1e1e1;font-size:30px;font-weight:700}
+#footer-wrap .address{font-size:16px}
+/* Footer [e] */
+
+/* 반응형 [s] */
+@media (max-width:1600px){
+#header-wrap, #footer-wrap{width:95%}
+}
+@media (max-width:1024px){
+#header-wrap{gap:30px;height:70px}
+#header-wrap .logo{font-size:26px}
+#header-wrap nav ul{gap:20px;font-size:16px}
+#header-wrap .member{padding:12px 25px}
+}
+@media (max-width:768px){
+#header-wrap{gap:20px}
+#header-wrap .logo{font-size:22px}
+#header-wrap nav ul{gap:15px;font-size:15px}
+#header-wrap .member{padding:12px 20px;font-size:14px}
+footer{padding:70px 0}
+#footer-wrap{text-align:center}
+#footer-wrap .logo{margin-bottom:25px;padding-bottom:25px;font-size:25px}
+#footer-wrap .address{font-size:15px}
+}
+@media (max-width:480px){
+#header-wrap{gap:10px;height:65px}
+#header-wrap .logo{font-size:18px}
+#header-wrap nav ul{gap:10px;font-size:13px}
+#header-wrap .member{padding:10px 15px;font-size:12px}
+#header-wrap .member li:first-child{padding-right:5px;margin-right:5px}
+#footer-wrap .logo{margin-bottom:20px;padding-bottom:20px;font-size:22px}
+#footer-wrap .address{font-size:14px}
+}
+/* 반응형 [e] */

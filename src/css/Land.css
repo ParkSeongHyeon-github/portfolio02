@@ -1,0 +1,158 @@
+#LandWrite{margin:auto;max-width:1200px}
+#LandWrite h1{margin-bottom:30px;font-size:26px;text-align:center}
+#LandWrite .item + .item{margin-top:50px}
+#LandWrite .item .cate{margin-bottom:20px;font-size:16px;font-weight:500}
+#LandWrite .item .input-container{display:flex;flex-direction:column}
+#LandWrite .item .input-container li{display:flex;border-bottom:1px solid #e1e1e1}
+#LandWrite .item .input-container li:first-child{border-top:1px solid #111}
+#LandWrite .item .input-container .label{display:flex;justify-content:center;align-items:center;padding:20px 0;min-width:170px;text-align:center;font-size:15px;font-weight:500;background-color:#f5f5f5}
+#LandWrite .item .input-wrap{display:flex;align-items:center;gap:10px;padding:0px 20px}
+#LandWrite .item .input-wrap label{padding-left:5px;font-size:14px}
+#LandWrite .item .input-wrap .input{padding:0 20px 0 12px;height:40px;border:1px solid #e1e1e1;border-radius:2px;font-size:14px;color:#777;font-family:'notokr-regular'}
+#LandWrite .item .input-wrap .input.full{width:800px}
+#LandWrite .item .input-wrap .input.half{width:400px}
+#LandWrite .item .input-wrap .input.file{padding:6px 20px 0 12px}
+#LandWrite .item .input-wrap .input.postcode{width:100px}
+#LandWrite .item .input-wrap .input.add, .add_detail{width:350px}
+#LandWrite .item .input-wrap .add-btn{width:125px;height:40px;margin-left:2px;border:none;border-radius:2px;font-size:14px;color:#fff;background-color:#555;font-family:'notokr-medium'}
+#LandWrite .btn-wrap{display:flex;justify-content:center;align-items:center;gap:12px;margin:50px 0}
+#LandWrite .btn-wrap button{width:180px;height:55px;border:none;border-radius:3px;font-size:16px;color:#fff;background-color:var(--primary)}
+#LandWrite .btn-wrap a{display:flex;justify-content:center;align-items:center;width:100px;height:55px;border-radius:3px;font-size:16px;color:#fff;background-color:#999}
+
+#LandSearch .search-head{position:relative;display:flex;align-items:center;height:60px}
+#LandSearch .search{position:relative;width:300px;height:100%}
+#LandSearch .search input{padding:20px 12px;width:100%;height:100%;border:1px solid #e1e1e1;border-right:none;font-size:15px}
+#LandSearch .search button{position:absolute;top:50%;right:10px;transform:translateY(-50%);border:none;background-color:transparent}
+#LandSearch .select-wrap{display:flex;align-items:center;gap:10px;padding:10px;width:calc(100% - 300px);height:100%;border:1px solid #e1e1e1}
+#LandSearch .select-wrap select{height:100%;border:1px solid #e1e1e1;color:#999}
+#LandSearch .refresh-btn{display:flex;justify-content:center;align-items:center;position:absolute;top:50%;right:10px;transform:translateY(-50%);transition:all .3s;padding:8px;border:1px solid #e1e1e1;color:#A2A2A2;background-color:transparent}
+#LandSearch .refresh-btn:hover{border:1px solid var(--primary);color:var(--primary)}
+#LandSearch .pagination{display:flex;justify-content:center;gap:8px;margin:30px 0}
+#LandSearch .pagination button{width:28px;height:28px;border:1px solid #e1e1e1;border-radius:3px;background-color:#f5f5f5}
+#LandSearch .pagination button.active {font-weight:bold;background:#000;color:#fff}
+
+#LandSearch .no-land{padding:120px 0;margin:80px auto;max-width:1600px;border:1px solid #e1e1e1;border-radius:10px;font-size:20px;text-align:center}
+#LandSearch .land-wrap{display:grid;grid-template-columns:repeat(4, 1fr);row-gap:60px;column-gap:30px;margin:50px auto 0;max-width:1600px}
+#LandSearch .land-wrap li{padding:22px;border:1px solid #e1e1e1;border-radius:20px;cursor:pointer}
+#LandSearch .land-wrap li img{width:100%;height:220px;object-fit:cover}
+#LandSearch .land-wrap li .tit{display:flex;align-items:center;margin:30px 0 20px;font-size:17px;font-weight:600}
+#LandSearch .land-wrap li .tit span{display:flex;justify-content:center;align-items:center;margin-right:10px;width:35px;height:35px;border:1px solid #111;border-radius:50%;font-size:15px;font-weight:500}
+#LandSearch .land-wrap li .subject{font-size:15px}
+#LandSearch .land-wrap li .address{margin:12px 0;font-size:15px;color:#a2a2a2}
+#LandSearch .land-wrap li .building{padding-top:20px;border-top:1px solid #e1e1e1;font-size:15px}
+#LandSearch .write-btn{margin:auto;max-width:1600px}
+#LandSearch .write-btn li a{display:flex;justify-content:center;align-items:center;margin:30px 0 50px;width:180px;height:55px;font-size:15px;color:#fff;background-color:#0054a6}
+
+#info-wrap{position:fixed;z-index:1;top:0px;right:0px;width:100%;height:100%;background-color:rgb(0, 0, 0, 0.5)}
+#info-wrap .close-btn{position:absolute;top:20px;right:20px;border:none;background-color:transparent}
+#info-wrap > div{overflow-y:scroll;display:flex;flex-direction:column;align-items:center;position:absolute;top:50%;left:50%;padding:30px;width:1000px;height:650px;transform:translate(-50% ,-50%);border-radius:10px;background-color:#fff}
+#info-wrap .top{display:flex;align-items:center;width:100%}
+#info-wrap .top .left, #info-wrap .top .right{width:50%}
+#info-wrap .top .left img{width:100%;height:330px;object-fit:cover}
+#info-wrap .top .right{display:flex;flex-direction:column;align-items:center;text-align:center}
+#info-wrap .top .right .tit{display:flex;align-items:center;font-size:22px;font-weight:600}
+#info-wrap .top .right .tit span{display:flex;justify-content:center;align-items:center;margin-right:10px;width:40px;height:40px;border:1px solid #e82020;border-radius:50%;font-size:15px;color:#e82020}
+#info-wrap .top .right .subject{margin:12px 0;font-size:15px}
+#info-wrap .top .right .address{font-size:15px;color:#a2a2a2}
+#info-wrap .top .right ul{display:flex;justify-content:center;align-items:center;margin-top:20px;padding-top:20px;width:100%;border-top:1px solid #e1e1e1}
+#info-wrap .top .right ul li{padding-right:10px;margin-right:10px;border-right:1px solid #e1e1e1;font-size:16px}
+#info-wrap .top .right ul li:last-child{border:none;padding-right:0px;margin-right:0px}
+#info-wrap .bottom{width:100%}
+#info-wrap .item-wrap{margin-top:30px}
+#info-wrap .item-wrap p{padding:12px 20px;font-size:18px}
+#info-wrap .item-wrap ul{display:grid;grid-template-columns:repeat(2, 1fr);row-gap:20px;padding:25px 20px;border-top:1px solid #e1e1e1;background-color:#f5f5f5}
+#info-wrap .item-wrap ul li{display:flex;align-items:center;font-size:16px;color:#a2a2a2;word-break:keep-all}
+#info-wrap .item-wrap ul li span{display:block;min-width:100px;color:#000}
+#info-wrap .admin-btn{display:flex;margin-top:40px;width:100%}
+#info-wrap .admin-btn li{width:100%;text-align:center}
+#info-wrap .admin-btn li button, #info-wrap .admin-btn li a{display:block;width:100%;height:55px;line-height:55px;border:none;font-size:15px}
+#info-wrap .admin-btn li .edit-btn{color:#fff;background-color:var(--primary)}
+#info-wrap .admin-btn li .delete-btn{color:#fff;background-color:#ef4444}
+
+/* 반응형 [s] */
+@media (max-width:1600px){
+#LandSearch .land-wrap, #LandSearch .write-btn, #LandSearch .no-land{width:95%}
+}
+@media (max-width:1024px){
+#LandWrite{width:95%}
+#LandWrite h1{margin:60px 0 30px;}
+#LandWrite .item .input-container .label{min-width:150px;font-size:14px}
+#LandWrite .item .input-wrap{padding:0 12px}
+#LandWrite .item .address .input-wrap{flex-direction:column;align-items:start;flex:1;padding:12px}
+#LandWrite .item .input-wrap.type, #LandWrite .item .input-wrap.maintenance, #LandWrite .item .input-wrap.area{flex-direction:column;align-items:start;padding:12px}
+#LandWrite .item .input-wrap .input.full{width:500px}
+#LandSearch .search{width:250px}
+#LandSearch .search input{font-size:14px}
+#LandSearch .select-wrap select{font-size:13px}
+#LandSearch .select-wrap{width:calc(100% - 250px)}
+#LandSearch .land-wrap{grid-template-columns:repeat(3, 1fr);column-gap:20px;row-gap:50px}
+#LandSearch .land-wrap li{padding:18px}
+#LandSearch .land-wrap li img{height:185px}
+#LandSearch .land-wrap li .tit{margin:25px 0 15px;font-size:15px}
+#LandSearch .land-wrap li .tit span{width:30px;height:30px;font-size:14px}
+#LandSearch .land-wrap li .subject, #LandSearch .land-wrap li .address, #LandSearch .land-wrap li .building{font-size:14px}
+#LandSearch .write-btn li a{width:165px;height:52px;font-size:14px}
+#info-wrap > div{width:750px}
+#info-wrap .top .left img{height:250px}
+#info-wrap .top .right .tit{font-size:18px}
+#info-wrap .top .right .tit span{width:35px;height:35px;font-size:14px}
+#info-wrap .top .right .subject, #info-wrap .top .right .address{font-size:14px}
+#info-wrap .top .right ul li{font-size:14px}
+#info-wrap .item-wrap p{font-size:16px}
+#info-wrap .item-wrap ul li{font-size:14px}
+#info-wrap .item-wrap ul li span{min-width:90px}
+}
+@media (max-width:768px){
+#LandWrite .item .input-container .label{min-width:120px;font-size:13px}
+#LandWrite .item .input-wrap{gap:8px}
+#LandWrite .item .input-wrap label{padding-left:3px;font-size:13px}
+#LandWrite .item .input-wrap .input.full{width:400px}
+#LandSearch .land-wrap{grid-template-columns:repeat(2, 1fr);column-gap:15px;row-gap:40px}
+#LandSearch .search-head{flex-direction:column;height:auto}
+#LandSearch .search{width:100%;height:50px}
+#LandSearch .select-wrap{border-top:none;width:100%;height:60px}
+#LandSearch .refresh-btn{top:unset;bottom:14px;transform:none}
+#LandSearch .no-land{font-size:18px}
+#info-wrap > div{padding:60px 30px 30px;width:580px}
+#info-wrap .top{flex-direction:column;gap:40px}
+#info-wrap .top .left, #info-wrap .top .right{width:100%}
+#info-wrap .close-btn{top:12px;right:12px}
+#info-wrap .close-btn svg{width:24px;}
+#info-wrap .item-wrap{margin-top:40px}
+#info-wrap .item-wrap p{padding:12px 8px}
+#info-wrap .item-wrap ul{padding:20px 8px}
+#info-wrap .item-wrap ul li{font-size:13px}
+#info-wrap .item-wrap ul li span{min-width:80px}
+#info-wrap .admin-btn li button, #info-wrap .admin-btn li a{height:50px;line-height:50px;font-size:14px}
+}
+@media (max-width:600px){
+#LandWrite .item .input-wrap .input.full, #LandWrite .item .input-wrap .input.half, #LandWrite .item .input-wrap .input.add, .add_detail{width:300px}
+#info-wrap > div{padding:50px 2.5% 30px;width:420px}
+#info-wrap .top .left img{height:225px}
+#info-wrap .top .right .tit{font-size:17px}
+#info-wrap .top .right .tit span{width:30px;height:30px;font-size:13px}
+#info-wrap .top .right .subject, #info-wrap .top .right .address{font-size:13px}
+#info-wrap .top .right ul{margin-top:15px;padding-top:15px}
+#info-wrap .top .right ul li{font-size:13px}
+#info-wrap .item-wrap p{font-size:15px}
+#info-wrap .item-wrap ul{grid-template-columns:repeat(1, 1fr)}
+}
+@media (max-width:480px){
+#LandWrite .item .input-container .label{min-width:85px;font-size:12px}
+#LandWrite .item .input-wrap{gap:6px;padding:8px !important}
+#LandWrite .item .input-wrap.maintenance_item{flex-direction:column;align-items:start;padding:0px;margin-top:10px}
+#LandWrite .item .input-wrap label{font-size:12px}
+#LandWrite .item .input-wrap .input.full, #LandWrite .item .input-wrap .input.half, #LandWrite .item .input-wrap .input.add, .add_detail{width:auto}
+#LandWrite .item .input-wrap .input{font-size:12px}
+#LandWrite .item .input-wrap > div{font-size:12px}
+#LandSearch .land-wrap{grid-template-columns:repeat(1, 1fr);column-gap:0px;row-gap:35px}
+#LandSearch .select-wrap select{font-size:11px}
+#LandSearch .write-btn li a{width:150px;height:50px;font-size:13px}
+#LandSearch .no-land{padding:70px 0;font-size:16px;}
+#info-wrap > div{padding:50px 2.5% 30px;width:380px}
+#info-wrap .admin-btn li button, #info-wrap .admin-btn li a{height:45px;line-height:45px;font-size:13px}
+}
+@media (max-width:380px){
+#info-wrap > div{padding:50px 2.5% 30px;width:350px}
+}
+/* 반응형 [e] */

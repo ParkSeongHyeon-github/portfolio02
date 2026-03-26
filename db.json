@@ -1,0 +1,359 @@
+{
+  "member": [
+    {
+      "id": "7068",
+      "mb_id": "admin",
+      "mb_password": "a1234",
+      "mb_email": "admin@admin.com",
+      "mb_name": "관리자",
+      "mb_phone": "01012345678"
+    },
+    {
+      "mb_id": "test",
+      "mb_password": "a1234",
+      "mb_email": "test@test.com",
+      "mb_name": "홍길동",
+      "mb_phone": "01011112222",
+      "id": "8x8nlPn"
+    }
+  ],
+  "land": [
+    {
+      "id": "2914",
+      "land_type": "사무실",
+      "land_price": "월세",
+      "land_postcode": "06035",
+      "land_add": "서울 강남구 가로수길 5",
+      "land_add_detail": "101호",
+      "land_deposit": "5000",
+      "land_monthly_rent": "100",
+      "land_premium": "50",
+      "land_maintenance": "30",
+      "land_maintenance_items": [
+        "수도",
+        "전기",
+        "가스",
+        "냉난방"
+      ],
+      "supply_area": "300",
+      "exclusive_area": "280",
+      "land_subject": "강남 사무실",
+      "land_room": "5",
+      "land_floor": "20",
+      "land_total_floor": "40",
+      "land_direction": "동향",
+      "land_building_use": "업무시설",
+      "land_move_in": "26년 5월 입주예정",
+      "land_parking": "총 10대 가능",
+      "agent_name": "홍길동",
+      "agent_phone": "01012345678",
+      "land_img": [
+        "강남 사무실1.jpg",
+        "강남 사무실2.jpg",
+        "강남 사무실3.jpg"
+      ],
+      "land_jeonse_price": "",
+      "land_jeonse_premium": ""
+    },
+    {
+      "id": "989e",
+      "land_type": "사무실",
+      "land_price": "전세",
+      "land_postcode": "06035",
+      "land_add": "서울 강남구 가로수길 9",
+      "land_add_detail": "101호",
+      "land_deposit": "",
+      "land_monthly_rent": "",
+      "land_premium": "",
+      "land_maintenance": "50",
+      "land_maintenance_items": [
+        "수도",
+        "전기",
+        "가스",
+        "냉난방"
+      ],
+      "supply_area": "300",
+      "exclusive_area": "200",
+      "land_subject": "강남 전세 사무실",
+      "land_room": "6",
+      "land_floor": "20",
+      "land_total_floor": "30",
+      "land_direction": "서향",
+      "land_building_use": "업무시설",
+      "land_move_in": "26년 5월 입주예정",
+      "land_parking": "총 10대 가능",
+      "agent_name": "홍길동",
+      "agent_phone": "01012345678",
+      "land_img": [
+        "강남 전세 사무실2.jpg",
+        "강남 전세 사무실1.jpg",
+        "강남 전세 사무실3.jpg"
+      ],
+      "land_jeonse_price": "5000",
+      "land_jeonse_premium": "100"
+    },
+    {
+      "id": "1518",
+      "land_type": "사무실",
+      "land_price": "단기",
+      "land_postcode": "06036",
+      "land_add": "서울 강남구 가로수길 10",
+      "land_add_detail": "101호",
+      "land_deposit": "",
+      "land_monthly_rent": "",
+      "land_premium": "",
+      "land_maintenance": "30",
+      "land_maintenance_items": [
+        "수도",
+        "전기",
+        "가스",
+        "냉난방"
+      ],
+      "supply_area": "600",
+      "exclusive_area": "400",
+      "land_subject": "강남 단기 사무실",
+      "land_room": "5",
+      "land_floor": "10",
+      "land_total_floor": "30",
+      "land_direction": "남향",
+      "land_building_use": "업무시설",
+      "land_move_in": "26년 5월 입주예정",
+      "land_parking": "총 10대 가능",
+      "agent_name": "홍길동",
+      "agent_phone": "01012345678",
+      "land_img": [
+        "강남 단기 사무실3.jpg",
+        "강남 단기 사무실1.jpg",
+        "강남 단기 사무실2.jpg"
+      ],
+      "land_short_deposit": "7000",
+      "land_short_rent": "200"
+    },
+    {
+      "id": "14a9",
+      "land_type": "사무실",
+      "land_price": "매매",
+      "land_postcode": "06036",
+      "land_add": "서울 강남구 가로수길 12",
+      "land_add_detail": "101호",
+      "land_deposit": "",
+      "land_monthly_rent": "",
+      "land_premium": "",
+      "land_maintenance": "100",
+      "land_maintenance_items": [
+        "수도",
+        "전기",
+        "가스",
+        "냉난방"
+      ],
+      "supply_area": "650",
+      "exclusive_area": "520",
+      "land_subject": "강남 매매 사무실",
+      "land_room": "7",
+      "land_floor": "40",
+      "land_total_floor": "48",
+      "land_direction": "남향",
+      "land_building_use": "업무시설",
+      "land_move_in": "26년 5월 입주예정",
+      "land_parking": "총 10대 가능",
+      "agent_name": "홍길동",
+      "agent_phone": "01012345678",
+      "land_img": [
+        "강남 매매 사무실3.jpg",
+        "강남 매매 사무실2.jpg",
+        "강남 매매 사무실1.jpg"
+      ],
+      "land_sale_price": "13000",
+      "land_sale_premium": "5000"
+    },
+    {
+      "land_type": "상가",
+      "land_price": "월세",
+      "land_postcode": "07378",
+      "land_add": "서울 영등포구 가마산로 311",
+      "land_add_detail": "",
+      "land_deposit": "2000",
+      "land_monthly_rent": "100",
+      "land_premium": "100",
+      "land_maintenance": "50",
+      "land_maintenance_items": [
+        "수도",
+        "전기",
+        "가스",
+        "냉난방"
+      ],
+      "supply_area": "500",
+      "exclusive_area": "400",
+      "land_subject": "영등포구 월세 상가",
+      "land_room": "5",
+      "land_floor": "3",
+      "land_total_floor": "5",
+      "land_direction": "남향",
+      "land_building_use": "판매시설",
+      "land_move_in": "6월 입주",
+      "land_parking": "주차 불가",
+      "agent_name": "홍길동",
+      "agent_phone": "01011112222",
+      "land_img": [
+        "영등포구 월세 상가2.jpg",
+        "영등포구 월세 상가3.jpg",
+        "영등포구 월세 상가1.jpg"
+      ],
+      "id": "_v5pADr"
+    },
+    {
+      "land_type": "상가",
+      "land_price": "전세",
+      "land_postcode": "07326",
+      "land_add": "서울 영등포구 국제금융로 10",
+      "land_add_detail": "",
+      "land_deposit": "",
+      "land_monthly_rent": "",
+      "land_premium": "",
+      "land_maintenance": "10",
+      "land_maintenance_items": [
+        "수도",
+        "전기"
+      ],
+      "supply_area": "300",
+      "exclusive_area": "200",
+      "land_subject": "영등포구 전세 상가",
+      "land_room": "4",
+      "land_floor": "12",
+      "land_total_floor": "28",
+      "land_direction": "남향",
+      "land_building_use": "판매시설",
+      "land_move_in": "5월입주",
+      "land_parking": "주차장 주차 가능",
+      "agent_name": "홍길동",
+      "agent_phone": "01012345678",
+      "land_img": [
+        "영등포구 전세 상가1.jpg",
+        "영등포구 전세 상가2.jpg",
+        "영등포구 전세 상가3.jpg"
+      ],
+      "land_jeonse_price": "7000",
+      "land_jeonse_premium": "400",
+      "id": "H1q2N4_"
+    },
+    {
+      "land_type": "오피스텔",
+      "land_price": "단기",
+      "land_postcode": "04770",
+      "land_add": "서울 성동구 강변북로 257",
+      "land_add_detail": "",
+      "land_deposit": "",
+      "land_monthly_rent": "",
+      "land_premium": "",
+      "land_maintenance": "30",
+      "land_maintenance_items": [
+        "수도",
+        "전기",
+        "가스",
+        "냉난방"
+      ],
+      "supply_area": "100",
+      "exclusive_area": "80",
+      "land_subject": "성수동 오피스텔",
+      "land_room": "3",
+      "land_floor": "16",
+      "land_total_floor": "30",
+      "land_direction": "남향",
+      "land_building_use": "제1종 근린생활시설",
+      "land_move_in": "4월입주",
+      "land_parking": "주차장 2대 가능",
+      "agent_name": "홍길동",
+      "agent_phone": "01011112222",
+      "land_img": [
+        "성수동 오피스텔1.jpg",
+        "성수동 오피스텔2.jpg"
+      ],
+      "land_short_deposit": "2000",
+      "land_short_rent": "200",
+      "id": "8steW77"
+    }
+  ],
+  "consult": [
+    {
+      "id": "09sd",
+      "subject": "방문예약 신청합니다",
+      "consult_type": "사무실",
+      "consult_price": "월세",
+      "user_name": "홍길동",
+      "user_phone": "01012345678",
+      "content": "방문예약 신청합니다."
+    },
+    {
+      "subject": "테스트",
+      "consult_type": "상가",
+      "consult_price": "전세",
+      "user_name": "홍길동",
+      "user_phone": "01011112222",
+      "content": "테스트",
+      "id": "gL21XLT"
+    },
+    {
+      "subject": "테스트1",
+      "consult_type": "오피스텔",
+      "consult_price": "단기",
+      "user_name": "홍길동",
+      "user_phone": "01012123434",
+      "content": "테스트",
+      "id": "k-1o4g9"
+    },
+    {
+      "subject": "테스트3",
+      "consult_type": "주택",
+      "consult_price": "매매",
+      "user_name": "홍길동",
+      "user_phone": "01011112222",
+      "content": "테스트",
+      "id": "uji-LwV"
+    }
+  ],
+  "quick_consult": [
+    {
+      "user_name": "테스트1",
+      "user_phone": "01011112222",
+      "content": "테스트1",
+      "subject": "테스트1님의 상담신청입니다.",
+      "id": "Ia5MEt1"
+    },
+    {
+      "user_name": "테스트2",
+      "user_phone": "01011112222",
+      "content": "테스트1",
+      "subject": "테스트2님의 상담신청입니다.",
+      "id": "mPiVYGG"
+    },
+    {
+      "user_name": "테스트3",
+      "user_phone": "01011112222",
+      "content": "테스트3",
+      "subject": "테스트3님의 상담신청입니다.",
+      "id": "8wpvwgR"
+    },
+    {
+      "user_name": "테스트4",
+      "user_phone": "01012345678",
+      "content": "테스트4",
+      "subject": "테스트4님의 상담신청입니다.",
+      "id": "Iu_AEQO"
+    },
+    {
+      "user_name": "테스트5",
+      "user_phone": "01012345678",
+      "content": "테스트5",
+      "subject": "테스트5님의 상담신청입니다.",
+      "id": "HaRNORQ"
+    },
+    {
+      "user_name": "테스트6",
+      "user_phone": "01011112222",
+      "content": "테스트6",
+      "subject": "테스트6님의 상담신청입니다.",
+      "id": "UDvrwQ6"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
