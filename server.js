@@ -4,17 +4,20 @@ import jsonServer from "json-server";
 import cors from "cors";
 
 const app = express();
-const router = jsonServer.router("db.json");
+const __dirname = path.resolve();
+
+const router = jsonServer.router(path.join(__dirname, "db.json"));
 const middlewares = jsonServer.defaults();
 
 app.use(cors());
 
+app.use(middlewares);
+
 app.use("/api", router);
 
-const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, "dist")));
 
-app.get("*", (req, res) => {
+app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname, "dist", "index.html"));
 });
 
