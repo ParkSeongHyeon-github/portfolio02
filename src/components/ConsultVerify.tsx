@@ -33,7 +33,7 @@ const ConsultVerify = ({verify, onClose} : VerifyProps) => {
     const ConsultCheck = async(name : string, phone : string) => {
         if(name === '' || phone === '') return;
         try{
-            const res = await fetch(baseUrl + `/consult?user_name=${name}&user_phone=${phone}`);
+            const res = await fetch(baseUrl + `/consult/${verify}?user_name=${name}&user_phone=${phone}`);
             const result = await res.json();
             if(result.length > 0){
                 nav(`/consult/view/${verify}`)
