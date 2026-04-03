@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# 부동산 매물 등록 및 관리 서비스
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-------------------------------
 
-Currently, two official plugins are available:
+### 프로젝트 소개
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React(TypeScript) 기반으로 제작한 부동산 매물 등록 및 관리 서비스입니다.
 
-## React Compiler
+사용자는 다양한 검색 필터를 통해 원하는 조건의 매물을 세부적으로 탐색할 수 있으며,  
+관리자는 매물 등록 및 수정, 삭제를 통해 데이터를 관리할 수 있습니다.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+또한 매물 등록, 상담 신청 등의 사용자 액션에 대해  
+별도의 UI 알림 컴포넌트를 구현하여 사용자 친화적인 인터페이스를 제공했습니다.
 
-## Expanding the ESLint configuration
+-------------------------------
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 주요기능
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+  ### 사용자 기능
+  - 매물 목록 조회
+  - 조건별 검색 필터 기능 (매물 유형, 거래 유형)
+  - 필터 조합을 통한 상세 검색
+  - 상담 신청 기능
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+  ### 관리자 기능
+  - 매물 등록 (매물 유형 / 거래 유형에 따른 동적 폼)
+  - 매물 수정 및 삭제
+  - 상담 신청 데이터 확인 및 관리
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+-------------------------------
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 기술스택
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **React (TypeScript)**  
+  → 컴포넌트 기반 구조 및 상태 관리  
+  → 필터링 및 동적 UI 처리
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **React Hook Form**  
+  → 매물 등록 및 상담 신청 폼 상태 관리  
+  → 입력값 검증 및 성능 최적화
+
+- **React Router**  
+  → 매물 목록 / 상세 페이지 라우팅 처리
+
+- **JSON Server**  
+  → 매물 및 상담 데이터 CRUD 처리
+
+-------------------------------
+
+### 주의사항
+
+- 차량 이미지 업로드 시 `public/img/land` 폴더에 직접 추가해야 합니다.
+- 이미지 파일명은 반드시 `매물명1~10` 형식으로 작성해야 정상 출력됩니다.
+
+----------------------
+
+### 관리자 계정
+
+- ID: admin  
+- PW: a1234
+
+----------------------
+
+### 프로젝트를 통해 성장한 점
+
+- 이전 프로젝트시 복잡한 입력폼들을 useState를 통하여 관리하는 코드를 작성했는데, React Hook Form을 도입하여 폼 상태 관리를 개선 할 수 있었습니다.
+- 이전 프로젝트시 사용자 액션에 대한 피드백을 alert창으로 구현하였는데, 이를 UI 알림 컴포넌트를 구현하여 좀 더 서비스의 사용자 친화성을 높였습니다.
+- 단순 키워드 검색을 넘어 다양한 조건을 조합할 수 있는 필터 기능을 구현하여, 사용자가 원하는 매물을 보다 효율적으로 탐색할 수 있도록 개선했습니다.
